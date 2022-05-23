@@ -1,15 +1,17 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 
-import * as math from "mathjs"
+import * as math from 'mathjs'
 
-const mathjsPlugin = {
+import './registerServiceWorker'
+
+const mathPlugin = {
   install(app) {
     app.config.globalProperties.$math = math;
   },
 };
 
 let app = createApp(App);
-app.use(mathjsPlugin);
+app.use(mathPlugin)
 
 app.mount("#app");

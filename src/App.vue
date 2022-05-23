@@ -1,8 +1,8 @@
-<script setup>
+<script setup async>
 import Calc from './components/calc.vue';
 
-</script>
 
+</script>
 <template>
 
   <header>
