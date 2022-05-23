@@ -1,7 +1,7 @@
 import { register } from 'register-service-worker'
 
 if (process.env.NODE_ENV === 'production') {
-  register(`https://calculator.rahulalt.repl.co/sw.js`, {
+  register(`https://scifi-calx.netlify.app/sw.js`, {
     ready () {
       console.log(
         'App is being served from cache by a service worker.\n' +
