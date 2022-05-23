@@ -7,7 +7,7 @@
 (Currently optimized for Mobile devices)
 <br>
 
-<a href="https://calculator.netlify.app"><b>Visit the calculator</b></a>
+<a href="https://scifi-calx.netlify.app/"><b>Visit the calculator</b></a>
 
  ---
 
