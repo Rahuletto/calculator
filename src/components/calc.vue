@@ -398,11 +398,12 @@ holder {
   
   position: fixed;
   top: 0%;
-  right: 0%;
-  
+  right: 50%;
+  transform: translate(50%, 0%);
   
   width: 100vw;
   min-width: 365px;
+  max-width: 400px;
   
   border-radius: 14px;
   background: #161616;
@@ -436,9 +437,11 @@ holder {
     height: 80vh;
     
     width: 99.7vw;
+    max-width: 400px;
     background: #121212;
     position: fixed;
-    left: 0px;
+    left: 50%;
+    transform: translate(-50%, 0%);
     top: 110vh;
     
     visibility: hidden;
@@ -458,7 +461,8 @@ holder {
       pointer-events: inherit;
       transition: 0.4s all ease-in-out;
       opacity: 1;
-      left: 0;
+      left: 50%;
+      transform: translate(-50%, 0%);
      top: 260px;
    }
 
